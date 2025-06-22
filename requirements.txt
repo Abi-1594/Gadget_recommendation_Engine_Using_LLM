@@ -1,0 +1,13 @@
+sentence-transformers==2.2.2 ##for open source embedding model to generate the vector embedding model
+##a type of deep learning model, specifically designed to generate fixed-length vector representations (embeddings) for sentences or text segments, capturing their semantic meaning
+langchain ## LangChain is a software framework that helps facilitate the integration of large language models (LLMs) into applications. As a language model integration framework, LangChain's use-cases largely overlap with those of language models in general, including document analysis and summarization, chatbots, and code analysis
+flask ##Flask is a popular Python web framework known for its lightweight and minimalist design, often referred to as a microframework. It provides a solid foundation for building web applications and APIs without imposing a lot of structure or requiring specific tools or libraries. This makes it flexible and adaptable to various project needs, from simple websites to complex APIs. 
+pypdf ##pypdf is a free and open source pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files.
+python-dotenv ##Python dotenv is a powerful tool that makes it easy to handle environment variables in Python applications from start to finish. It lets you easily load configuration settings from a special file (usually named .env) instead of hardcoding them. This makes your code more secure, easier to manage, and better organized.
+pinecone[grpc] ##adds dependencies on grpcio and related libraries needed to run data operations such as upserts and queries over gRPC for a modest performance improvement. pinecone[asyncio] adds a dependency on aiohttp and enables usage of async methods for use with asyncio.
+langchain-pinecone ##a vector database with broad functionality. This notebook shows how to use functionality related to the Pinecone vector database.
+langchain_community ##chaining together a series of LLM calls or for retrieval augmented generation. We recommend you try out LangGraph if you want to build an agent.
+langchain_openai ##a Python library that provides integration with OpenAI models within the LangChain framework. It allows users to easily access and utilize OpenAI's language models (LLMs), chat models, and embedding models in their LangChain applications. 
+langchain_experimental ## A transformer class for converting documents into graph structures using the GLiNER and GLiREL models. graph_transformers.llm.LLMGraphTransformer (llm).
+##GLiNER (Generalist Language-based NER) is a zero-shot Named Entity Recognition (NER) model that can identify any type of entity in text, unlike traditional NER models limited to predefined entity types.
+-e . ##for dependencies 
